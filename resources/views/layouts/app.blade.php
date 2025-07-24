@@ -61,9 +61,12 @@
 
 @push('css')
     <style type="text/css">
-        {{-- You can add AdminLTE customizations here --}} .main-sidebar {
-            background-color: #555555;
-            /* Dark sidebar */
+        .main-sidebar {
+            background-color: #666;
+        }
+
+        [class*=sidebar-dark-] .sidebar a {
+            color: #ddd;
         }
     </style>
 @endpush
